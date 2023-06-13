@@ -1,0 +1,273 @@
+*{
+  font-family: 'Roboto';
+  padding: 0;
+  margin: 0;
+  box-sizing:border-box ;
+}
+
+
+header{
+  background-image: url("../img/About\ Us.png");
+  color: #fff;
+  padding: 15px;
+  text-align: center;
+  border-bottom: 2px solid rgb(57, 36, 177);
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+
+  
+}
+#header-outros{
+  background-color: aquamarine;
+  color: #fff;
+  padding: 15px;
+  text-align: center;
+  border-bottom: 2px solid rgb(57, 36, 177);
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+}
+
+/* imagem logo*/
+.logo{
+  position: absolute;
+   top: 10px;
+  
+}
+
+.logo a {
+  display: inline-block;
+}
+
+
+.logo img {
+  width: 300px;
+  height: auto;
+  opacity: 0.8;
+  transition: opacity 0.3s ease;
+}
+
+.logo img:hover {
+  opacity: 1;
+}
+/*ACESSO NO HEART*/
+.access {
+  display: flex;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.access div {
+  margin-right: 20px;
+}
+
+.access div:last-child {
+  margin-right: 0;
+}
+
+.access a {
+  text-decoration: none;
+  color: #000;
+ 
+  border-bottom: 2px solid transparent;
+  transition: color 0.3s;
+}
+
+.access a:hover {
+  color: #2619db;
+}
+.access .paginai a {
+  font-weight: bold;
+}
+
+
+
+.texto-header{
+  width: 50%;
+  padding: 50px;
+  color: red;
+  font-weight: bold;
+}
+.texto{
+  font-family: cursive;
+  padding: 20px;
+  color: #6e5b5b96;
+}
+/*corpo*/
+
+.container{
+  background-color:#fff;
+  min-height: 100px;
+ width: 100%;
+  
+}
+
+.container div{
+  width: 100%;
+}
+.conteudo{
+  
+  display: ruby-base-container;
+}
+
+.texto-cont{
+ 
+  background-color: #eee;
+  list-style: none;
+  padding: 30px;
+  margin-top: 80px;
+  margin-bottom: 30px; 
+
+}
+
+
+
+.img-cont{
+  text-align: center;
+  padding: 15px;
+}
+
+
+.img-logo-nome img{
+  
+  
+  width: 20%;
+  
+}
+
+.tex-filial{
+  
+ width: 20%;
+}
+
+.produto{
+  width: 31%;
+  display: inline-block;
+  margin: 1% 1%;
+  padding: 15px;
+
+}
+
+.produto-image{
+  height: 300px;
+  width: 100%;
+  margin-bottom: 10px;
+  background-position: center;
+  background-size: cover;
+}
+
+
+/*#img-1{
+  background-image: url('../img/');
+}*/
+
+h3{
+  margin-bottom: 10px;
+  color: rgb(124, 79, 248);
+  font-size: 24px;
+}
+
+.produto p{
+  margin-bottom: 10px;
+}
+
+.btn{
+  display: block;
+  width: 100%;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  background-color:  rgb(23, 182, 71);
+  padding: 15px;
+  border-radius: 5px;
+  transition: .5s;
+}
+.btn-cad{
+  display: block;
+  width: px;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  background-color:  rgb(23, 182, 71);
+  padding: 15px;
+  border-radius: 5px;
+  transition: .5s;
+
+}
+.btn:hover{
+  background-color:rgb(57, 36, 177);
+}
+
+/*
+botao de acesso da pagina inicial
+*/
+.cesso {
+  position: relative;
+  display: inline-block;
+}
+
+.cesso-dropdown {
+  position: relative;
+}
+
+.cesso-trigger {
+  cursor: pointer;
+  color: #000;
+  opacity: 0.8;
+}
+
+.cesso-options {
+  position: absolute;
+  top: 100%;
+  left: -40px;
+  display: none;
+  color: #000;
+  border-bottom: 2px solid transparent;
+  transition: color 0.3s;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  z-index: 1;
+  white-space: nowrap; /* Impede que o texto seja quebrado em várias linhas */
+  background-color: #fff;
+}
+
+.cesso-options.right {
+  left: auto;
+  right: 0;
+}
+
+
+.cesso-options a {
+  display: block;
+  padding: 5px 10px;
+  text-decoration: none;
+  color: #333;
+}
+
+.cesso-options a:hover {
+  background-color: #f1f1f1;
+}
+
+.cesso-dropdown:hover .cesso-options {
+  display: block;
+}
+
+
+
+
+
+footer{
+  background-color: #2619db;
+  color: #fff;
+  border-top:2px solid rgb(57, 36, 177);
+  text-align: center;
+  padding: 100px;
+}

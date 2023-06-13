@@ -1,0 +1,77 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background-color: rgba(41, 121, 255);
+  padding: 10px;
+}
+.entrevistas{
+  padding: 20px;
+}
+.content {
+  display: flex;
+  flex-direction: row;
+}
+
+.sidebar {
+  background-color: #e3e3e3;
+  width: 200px;
+  padding: 10px;
+}
+
+.sidebar h3 {
+  margin-top: 0;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sidebar li {
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+
+.curriculos {
+  flex-grow: 1;
+  padding: 10px;
+}
+
+.curriculo {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+  height: 100px;
+  overflow: auto;
+}
+
+.curriculo h3 {
+  margin-top: 0;
+}
+
+.footer {
+  background-color: #f1f1f1;
+  padding: 10px;
+  text-align: right;
+}
+
+
+/*CREATE TABLE entrevistas (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  periodo_inicio DATETIME,
+  periodo_fim DATETIME,
+  disponivel TINYINT(1) DEFAULT 1
+);
+CREATE TABLE agendamentos (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  curriculo_id INT,
+  entrevista_id INT,
+  FOREIGN KEY (curriculo_id) REFERENCES curriculos(id),
+  FOREIGN KEY (entrevista_id) REFERENCES entrevistas(id)
+);
